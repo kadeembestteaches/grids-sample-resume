@@ -1,0 +1,116 @@
+/*
+CSS REset
+
+*/
+
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+/*
+General Styles
+
+*/
+
+body
+{
+    font-family: Arial;
+    text-align: center;  
+    font-size:1.1rem;
+    background-color:#333333;
+    line-height: 1.4rem;
+
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header
+{
+    height:60vh;
+    color:#ffffff;
+    padding: 3rem 0 0 0;
+    background-image:url("../img/header-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+header h1
+{
+    margin:0 0 4rem 0
+}
+
+header a 
+{
+    background-color:#333333;
+    color:#ffffff;
+    border : 2px solid #555555;
+    padding :1rem 1.5rem;
+    display:inline-block; /*This converts an inline element into an inline-block element*/
+    
+}
+
+
+#resume-summary-section
+{
+    background-color: #eaeaea;
+    padding:2rem 6rem;
+
+}
+
+#resume-summary-section h2
+{
+    margin: 0 0 1.5rem 0;
+}
+
+
+#resume-contact-section
+{
+    background-color:aqua;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#resume-contact-section > div
+{
+    padding:2rem 3rem;
+}
+
+#resume-contact-section > div:nth-child(1)
+{
+    background-color:#2690d4;
+}
+
+#resume-contact-section > div:nth-child(2)
+{
+    background-color:#ffffff;
+}
+
+
+#resume-contact-section h3
+{
+    margin:0 0 1rem 0;
+}
+
+footer
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    color:#ffffff;
+    padding: 2rem 0;
+    background-color: #000000;
+}
+
+footer i
+{
+    font-size:2rem;
+    margin: 0 3rem 0 0;
+}
